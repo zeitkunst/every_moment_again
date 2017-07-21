@@ -1,0 +1,52 @@
+{
+  "name": "every_moment_again",
+  "author": "Liminal Poetics",
+  "version": "0.1.0",
+  "keywords": ["pebble-app"],
+  "private": true,
+  "dependencies": {},
+  "pebble": {
+    "displayName": "Every moment again",
+    "uuid": "5e10bd82-1fe6-4336-abd8-e99b156c6ecf",
+    "sdkVersion": "3",
+    "enableMultiJS": true,
+    "targetPlatforms": [
+      "aplite",
+      "basalt",
+      "chalk",
+      "diorite"
+    ],
+    "watchapp": {
+      "watchface": true
+    },
+    "messageKeys": [
+      "EVERY_MOMENT_TITLE",
+      "EVERY_MOMENT_POEM"
+    ],
+    "resources": {
+      "media": [
+         {
+            "type":"font",
+            "name":"FONT_ANDIKA_20",
+            "file":"fonts/Andika-R.ttf",
+            "compatibility":"2.7"
+        },
+        {
+            "characterRegex":"[\u0000-\u00FF\u201C\u201D\u2013\u2014]",
+            "type":"font",
+            "name":"FONT_CHARIS_SIL_24",
+            "file":"fonts/CharisSIL-R.ttf",
+            "compatibility":"2.7"
+        },
+        {
+            "characterRegex":"[\u0000-\u00FF\u201C\u201D\u2013\u2014]",
+            "type":"font",
+            "name":"FONT_CHARIS_SIL_22",
+            "file":"fonts/CharisSIL-R.ttf",
+            "compatibility":"2.7"
+        }
+
+      ]
+    }
+  }
+}
